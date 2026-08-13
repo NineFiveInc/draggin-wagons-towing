@@ -526,15 +526,11 @@ nav.main-nav a.active {
 .team-photo {
   border: 1px solid var(--gray-200);
   overflow: hidden;
-  margin-bottom: 40px;
-  aspect-ratio: 16 / 9;
+  margin: 0 auto 40px;
+  max-width: 500px;
 }
 
-.team-photo img { width: 100%; height: 100%; object-fit: cover; object-position: center 50%; }
-
-@media (max-width: 700px) {
-  .team-photo { aspect-ratio: 4 / 3; }
-}
+.team-photo img { width: 100%; height: auto; display: block; }
 
 .team-card { background: var(--white); }
 .team-card .info { border-top: 2px solid var(--green); }
