@@ -715,7 +715,15 @@ footer.site-footer {
   section { padding: 56px 0; }
 
   .cta-banner-inner { text-align: center; justify-content: center; }
-  .header-cta .call-text { display: none; }
+  .header-cta .call-number { display: none; }
+  .header-call {
+    padding: 0;
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+  }
+  .header-call .call-text { display: inline-flex; }
+  .header-call .icon { width: 19px; height: 19px; }
 }
 
 @media (max-width: 520px) {
