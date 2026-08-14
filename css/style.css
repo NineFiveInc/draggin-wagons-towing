@@ -533,8 +533,8 @@ nav.main-nav a.active {
 .team-photo img { width: 100%; height: 100%; aspect-ratio: 3 / 4; object-fit: cover; display: block; border: 1px solid var(--gray-200); }
 
 @media (max-width: 600px) {
-  .team-photo { grid-template-columns: 1fr; gap: 6px; }
-  .team-photo img { aspect-ratio: 4 / 3; }
+  .team-photo { gap: 2px; }
+  .team-photo img { aspect-ratio: 3 / 5; }
 }
 
 .team-card { background: var(--white); }
